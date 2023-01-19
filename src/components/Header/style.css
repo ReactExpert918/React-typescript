@@ -1,0 +1,157 @@
+.header {
+  height: auto;
+}
+.top-nav {
+  background: #1E6140;
+  padding: 0 15%;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-menu {
+  width: 80%;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.top-menu .menu-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  width: 100%;
+}
+
+.top-menu .menu-container div {
+  list-style-type: none;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  cursor: pointer;
+  padding: 15px 10px;
+}
+
+.top-menu .menu-container div:hover {  
+  background: #347153;
+}
+
+.top-menu .menu-container div:last-child {
+  padding-right: 50px;
+}
+
+.top-login {
+  padding-left: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.top-login img {
+  margin-right: 10px;
+}
+
+.top-login a {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  cursor: pointer;
+
+  color: #FFFFFF;
+}
+
+.search-cart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.search-cart .search {
+  width: 345px;
+  height: 40px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 90px;
+  display: flex;
+  align-items: center;
+}
+
+.search-cart .search input {
+  height: 20px;
+  width: 270px;
+  margin: 0 14px 0 20px;
+  border: none;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  
+}
+
+.search-cart .search input:focus-visible {
+  outline: none;
+}
+
+.search-cart .phone {
+  width: 260px;
+  height: 40px;
+  display: flex;
+}
+.search-cart .phone-numbers {
+  margin-left: 6px;
+}
+
+.search-cart .phone p {
+  margin: 0;
+  text-align: left;
+}
+
+.phone-number {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+
+  color: #000000;
+}
+
+.phone-detail {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  text-decoration-line: underline;
+  color: #84BE51;
+}
+
+.search-cart .icons {
+  display: flex;
+  align-items: center;
+  width: 205px;
+  height: 41px;
+}
+
+.search-cart .icons > div {
+  margin-right: 15px;
+}
+
+.top-buttons {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}

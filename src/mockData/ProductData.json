@@ -1,0 +1,36 @@
+{
+  "messages": [
+    {
+      "url": "product1.png",
+      "name": "Скор 250 ЕС к.э.",
+      "stock": "589 грн",
+      "price": "1 шт"
+    },
+    {
+      "url": "product2.png",
+      "name": "Скор 250 ЕС к.э.",
+      "stock": "589 грн",
+      "price": "1 шт"
+    },
+    {
+      "url": "product3.png",
+      "name": "Скор 250 ЕС к.э.",
+      "stock": "589 грн",
+      "price": "1 шт"
+    }
+    ,
+    {
+      "url": "product3.png",
+      "name": "Скор 250 ЕС к.э.",
+      "stock": "589 грн",
+      "price": "1 шт"
+    }
+    ,
+    {
+      "url": "product3.png",
+      "name": "Скор 250 ЕС к.э.",
+      "stock": "589 грн",
+      "price": "1 шт"
+    }
+  ]
+}

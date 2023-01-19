@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  margin: auto;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+.product-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: auto;
+  margin-top: 20px;
+  grid-gap: 30px;
+}
